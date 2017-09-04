@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ExtensionModel>
+	<Extension path="/MonoDevelop/Ide/ContextMenu/ProjectPad">
+		<CommandItem id="WebCompiler.CtxCommands.COMPILE" _label="WebCompiler" />
+	</Extension>
+	
+	<Runtime>
+	</Runtime>
+</ExtensionModel>
