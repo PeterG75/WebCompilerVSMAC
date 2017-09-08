@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{AEA0B039-BC92-4012-8CB5-308BA4ACCCF8}</ProjectGuid>
+    <ProjectGuid>{9AAE5B22-93D8-457D-868C-425DD514250D}</ProjectGuid>
     <ProjectTypeGuids>{86F6BF2A-E449-4B3E-813B-9ACC37E5545F};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <RootNamespace>WebCompiler</RootNamespace>
@@ -33,17 +33,6 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Properties\Manifest.addin.xml" />
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="Mono.Addins">
-      <HintPath>..\packages\MonoDevelop.Addins.0.3.15\build\net45\Mono.Addins.dll</HintPath>
-    </Reference>
-    <Reference Include="Mono.Addins.Setup">
-      <HintPath>..\packages\MonoDevelop.Addins.0.3.15\build\net45\Mono.Addins.Setup.dll</HintPath>
-    </Reference>
-    <Reference Include="MonoDevelop.Addins.Tasks">
-      <HintPath>..\packages\MonoDevelop.Addins.0.3.15\build\net45\MonoDevelop.Addins.Tasks.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

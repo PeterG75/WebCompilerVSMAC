@@ -5,9 +5,25 @@ using MonoDevelop.Ide.Gui.Components;
 
 namespace WebCompiler
 {
+	// http://www.monodevelop.com/developers/articles/extending-the-project-pad/
 	public enum CtxCommands
 	{
 		COMPILE	
+	}
+
+	class Builder : NodeBuilderExtension
+	{
+		public override Type CommandHandlerType
+		{
+			get
+			{
+				return typeof(CtxCommandHandler);
+			}
+		}
+		public override bool CanBuildNode(Type dataType)
+		{
+			return true;
+		}
 	}
 
 	public class CtxCommandHandler : NodeCommandHandler

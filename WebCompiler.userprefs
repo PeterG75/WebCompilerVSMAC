@@ -1,29 +1,14 @@
-﻿<Properties StartupConfiguration="{AEA0B039-BC92-4012-8CB5-308BA4ACCCF8}|">
+﻿<Properties StartupConfiguration="{9AAE5B22-93D8-457D-868C-425DD514250D}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="WebCompiler/Properties/Manifest.addin.xml">
     <Files>
-      <File FileName="WebCompiler/Properties/Manifest.addin.xml" Line="4" Column="42" />
-      <File FileName="WebCompiler/CtxCommandHandler.cs" Line="14" Column="1" />
+      <File FileName="WebCompiler/packages.config" Line="4" Column="12" />
+      <File FileName="WebCompiler/Properties/Manifest.addin.xml" Line="15" Column="46" />
+      <File FileName="WebCompiler/CtxCommandHandler.cs" Line="42" Column="2" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="WebCompiler" expanded="True">
-            <Node name="WebCompiler" expanded="True">
-              <Node name="Packages" expanded="True" />
-              <Node name="Properties" expanded="True" />
-              <Node name="AddinReferenceFolder" selected="True" />
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/midiway/Desktop/WebCompiler/WebCompiler/CtxCommandHandler.cs" relfile="WebCompiler/CtxCommandHandler.cs" line="9" column="1" />
-      <Breakpoint file="/Users/midiway/Desktop/WebCompiler/WebCompiler/CtxCommandHandler.cs" relfile="WebCompiler/CtxCommandHandler.cs" line="13" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />

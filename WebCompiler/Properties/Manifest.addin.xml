@@ -3,7 +3,16 @@
 	<Extension path="/MonoDevelop/Ide/ContextMenu/ProjectPad">
 		<CommandItem id="WebCompiler.CtxCommands.COMPILE" _label="WebCompiler" />
 	</Extension>
+
+	<Extension path="/MonoDevelop/Ide/ContextMenu/ProjectPad/Add">
+		<CommandItem id="WebCompiler.CtxCommands.COMPILE" _label="WebCompiler2" />
+	</Extension>
 	
-	<Runtime>
-	</Runtime>
+	<Extension path="/MonoDevelop/Ide/Pads/ProjectPad">
+		<NodeBuilder class="WebCompiler.Builder"/>
+	</Extension>
+	
+	<Extension path="/MonoDevelop/Ide/Commands">
+		<Command id="WebCompiler.CtxCommands.COMPILE" _label="Add Web Reference" />
+	</Extension>
 </ExtensionModel>
